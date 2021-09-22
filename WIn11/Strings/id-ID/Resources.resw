@@ -130,7 +130,7 @@
     <value>Lanjut</value>
   </data>
   <data name="EditText.Text" xml:space="preserve">
-    <value>Diedit</value>
+    <value>Dimodifikasi</value>
   </data>
   <data name="Exit" xml:space="preserve">
     <value>Keluar</value>
@@ -145,7 +145,7 @@
     <value>Bagaimana membuat Asosiasi Berkas tersedia</value>
   </data>
   <data name="FileButton.Title" xml:space="preserve">
-    <value>Mengajukan</value>
+    <value>Berkas</value>
   </data>
   <data name="FileDesc" xml:space="preserve">
     <value>Maaf, Sesuatu telah terjadi!</value>
