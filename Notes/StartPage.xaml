@@ -84,7 +84,12 @@
                                     <ContentPresenter x:Name="LeftContentPresenter" ContentTemplate="{TemplateBinding TabStripHeaderTemplate}" Content="{TemplateBinding TabStripHeader}" Grid.Column="0"/>
                                     <primitiveContract7Present:TabViewListView x:Name="TabListView" AllowDrop="{TemplateBinding AllowDropTabs}" CanReorderItems="{TemplateBinding CanReorderTabs}" Grid.Column="1" CanDragItems="{TemplateBinding CanDragTabs}" ItemTemplate="{TemplateBinding TabItemTemplate}" ItemsSource="{TemplateBinding TabItemsSource}" ItemTemplateSelector="{TemplateBinding TabItemTemplateSelector}" Padding="{TemplateBinding Padding}"/>
                                     <Border Grid.Column="2" Padding="{ThemeResource TabViewItemAddButtonContainerPadding}" VerticalAlignment="Bottom" Visibility="{Binding IsAddTabButtonVisible, RelativeSource={RelativeSource Mode=TemplatedParent}}" Margin="0,0,0,3" Height="29" Width="29">
-                                        <Button x:Name="AddButton" Command="{TemplateBinding AddTabButtonCommand}" CommandParameter="{TemplateBinding AddTabButtonCommandParameter}" Content="&#xE109;" HighContrastAdjustment="None" HorizontalAlignment="Stretch" IsTextScaleFactorEnabled="False" VerticalAlignment="Stretch" Margin="-3,0,0,-3" FontFamily="Segoe Fluent Icons" Padding="5.5,5.6,5,5" Background="#00808080" BorderThickness="0,0,0,0" FontSize="13" UseLayoutRounding="False" Height="30" Width="30" CornerRadius="5,5,5,5">
+                                        <Button x:Name="AddButton" Command="{TemplateBinding AddTabButtonCommand}" CommandParameter="{TemplateBinding AddTabButtonCommandParameter}" HighContrastAdjustment="None" HorizontalAlignment="Stretch" IsTextScaleFactorEnabled="False" VerticalAlignment="Stretch" Margin="-6,0,0,-3" Padding="5.5,5.6,5,5" Background="#00808080" BorderThickness="0,0,0,0" FontSize="13" UseLayoutRounding="False" Height="30" Width="30" CornerRadius="5,5,5,5">
+                                            <Button.Content>
+                                                <Viewbox Width="13" Height="13">
+                                                    <SymbolIcon Symbol="Add" />
+                                                </Viewbox>
+                                            </Button.Content>
                                             <Button.BorderBrush>
                                                 <LinearGradientBrush EndPoint="0,3" MappingMode="Absolute">
                                                     <LinearGradientBrush.RelativeTransform>
