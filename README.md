@@ -67,3 +67,4 @@ We'd love to hear your feedback on development, whether thats an issue you're ha
 **Additional Translators & Other Contributors**
 
 * [Ngetehkuy (@Ngetehkuy)](https://github.com/ngetehkuy) - Translator for Indonesian
+* [Taiizor (@Taiizor)](https://github.com/Taiizor) - Translator for Turkish

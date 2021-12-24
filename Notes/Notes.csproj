@@ -292,6 +292,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Notes_TemporaryKey.pfx" />
+    <PRIResource Include="Strings\tr-TR\Welcome.resw" />
+    <PRIResource Include="Strings\tr-TR\Setup.resw" />
+    <PRIResource Include="Strings\tr-TR\Resources.resw" />
+    <PRIResource Include="Strings\tr-TR\Ataglance.resw" />
+    <PRIResource Include="Strings\tr-TR\About.resw" />
     <PRIResource Include="Strings\en-US\Welcome.resw" />
     <PRIResource Include="Strings\en-US\Ataglance.resw" />
     <PRIResource Include="Strings\en-US\About.resw" />
